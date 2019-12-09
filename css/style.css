@@ -74,6 +74,11 @@ header .second-part {
           .main-info .information-squares .second .contact,
           .main-info .information-squares .third .contact {
             font-size: 1.2rem; } }
+        @media (min-width: 992px) and (max-width: 1199px) {
+          .main-info .information-squares .first .contact,
+          .main-info .information-squares .second .contact,
+          .main-info .information-squares .third .contact {
+            font-size: 18px; } }
     .main-info .information-squares .first {
       background-color: #36a8eb; }
       .main-info .information-squares .first .btn:hover {
@@ -225,5 +230,5 @@ p, a {
     text-align: center;
     margin: auto; } }
 
-.navbar-collapse.collapse.show a {
+.navbar-collapse.collapse a {
   text-align: left !important; }
